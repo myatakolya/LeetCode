@@ -1,5 +1,7 @@
 from functools import cache
 class Solution:
+    #Time Complexity: O(n)
+    #Space Complexity: O(1)
     def fib1(self, n: int) -> int:
         if n <= 1:
             return n
@@ -11,8 +13,11 @@ class Solution:
                 prev1,prev2 = summa, prev1
                 
             return summa
-    @cache
+        
+    #Time Complexity: O(n)
+    #Space Complexity: O(n)
     def fib(self, n: int) -> int:
+        @cache
         def f(n):
             if n <= 1:
                 return n
