@@ -1,4 +1,4 @@
-[![LeetCode Stats](https://leetcard.jacoblin.cool/myata_kolya)](https://leetcode.com/myata_kolya) 
+[![LeetCode Stats](https://leetcard.jacoblin.cool/myata_nikolay)](https://leetcode.com/myata_nikolay) 
 # Language
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 # LeetCode
