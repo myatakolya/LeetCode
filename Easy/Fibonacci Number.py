@@ -1,5 +1,5 @@
 from functools import cache
-class Solution:
+class Solution: 
     #Time Complexity: O(n)
     #Space Complexity: O(1)
     def fib1(self, n: int) -> int:
