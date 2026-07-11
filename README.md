@@ -17,4 +17,10 @@
 |---|----------|-------|--------|------|---------|
 | 1 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer) | `O(n)` | `O(1)` | Hash Table, Math, String | [📄](./Easy/RomanToInteger.py) |
 
+### 🔴 Hard
+
+| # | Название | Время | Память | Темы | Решение |
+|---|----------|-------|--------|------|---------|
+| 2 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | `O((m+n) log(m+n)) | O(log min(m,n))` | `O(m+n) | O(1)` | Array, Binary Search, Divide and Conquer | [📄](./Hard/MedianOfTwoSortedArrays.py) |
+
 <!-- SOLUTIONS_TABLE_END -->
