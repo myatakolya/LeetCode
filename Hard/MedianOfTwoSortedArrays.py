@@ -3,11 +3,12 @@ from typing import List
 Problem: Median of Two Sorted Arrays
 Number: 2
 Difficulty: Hard
-Time Complexity: O((m+n) log(m+n)) | O(log min(m,n))
-Space Complexity: O(m+n) | O(1)
+Time Complexity: O((m+n) log(m+n))
+Space Complexity: O(m+n)
 URL: https://leetcode.com/problems/median-of-two-sorted-arrays
 Topics: Array, Binary Search, Divide and Conquer
-'''
+''' 
+#For findMedianSortedArraysBIN Time Complexity: O(log min(m,n)) and Space Complexity: O(1)
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         nums3 = sorted(nums1 + nums2)
