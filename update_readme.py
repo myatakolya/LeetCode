@@ -7,33 +7,20 @@ from pathlib import Path
 from typing import List, Dict, Optional
 
 def parse_solution_file(file_path: Path) -> Optional[Dict[str, str]]:
-    """
-    Парсит файл решения и извлекает метаданные из комментариев.
-    
-    Ожидает блок комментариев в начале файла с полями:
-    - Problem: название задачи
-    - Number: номер задачи
-    - Difficulty: сложность (Easy/Medium/Hard)
-    - Time Complexity: временная сложность
-    - Space Complexity: сложность по памяти
-    - URL: ссылка на задачу на LeetCode
-    """
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # Ищем блок с метаданными в начале файла
         pattern = r'''
             Problem:\s*(.+?)\n
             Number:\s*(\d+)\s*\n
             Difficulty:\s*(Easy|Medium|Hard)\s*\n
             Time\s*Complexity:\s*(.+?)\n
             Space\s*Complexity:\s*(.+?)\n
-            URL:\s*(https?://[^\s]+)
+            URL:\s*(https?://[^\s]+)(?:\n\s*Topics:\s*(.+?))?(?:\n|$)
         '''
         
         match = re.search(pattern, content, re.VERBOSE | re.IGNORECASE)
-        
         if not match:
             print(f"⚠️  Пропускаем {file_path.name}: метаданные не найдены")
             return None
@@ -45,10 +32,10 @@ def parse_solution_file(file_path: Path) -> Optional[Dict[str, str]]:
             'time': match.group(4).strip(),
             'space': match.group(5).strip(),
             'url': match.group(6).strip(),
+            'topics': match.group(7).strip() if match.group(7) else '',
             'file': file_path.name,
             'path': str(file_path)
         }
-    
     except Exception as e:
         print(f"❌ Ошибка при чтении {file_path.name}: {e}")
         return None
@@ -80,53 +67,35 @@ def collect_solutions(base_dir: str = '.') -> List[Dict[str, str]]:
     return sorted(solutions, key=lambda x: int(x['number']))
 
 def generate_table(solutions: List[Dict[str, str]]) -> str:
-    """
-    Генерирует Markdown-таблицу с решениями.
-    """
     if not solutions:
         return "Пока нет решений. 😅"
     
-    # Эмодзи для сложности
-    difficulty_emojis = {
-        'Easy': '🟢',
-        'Medium': '🟡',
-        'Hard': '🔴'
-    }
-    
-    # Группируем по сложности
+    difficulty_emojis = {'Easy': '🟢', 'Medium': '🟡', 'Hard': '🔴'}
     grouped = {'Easy': [], 'Medium': [], 'Hard': []}
     for sol in solutions:
         grouped[sol['difficulty']].append(sol)
     
     table_parts = []
-    
     for difficulty in ['Easy', 'Medium', 'Hard']:
         if not grouped[difficulty]:
             continue
-        
         emoji = difficulty_emojis.get(difficulty, '⚪')
         table_parts.append(f"\n### {emoji} {difficulty}\n")
-        
-        # Заголовок таблицы
         table_parts.append(
-            "| # | Название | Время | Память | Решение |\n"
-            "|---|----------|-------|--------|---------|"
+            "| # | Название | Время | Память | Темы | Решение |\n"
+            "|---|----------|-------|--------|------|---------|"
         )
-        
-        # Строки таблицы
         for sol in grouped[difficulty]:
-            # Ссылка на файл с решением (относительный путь)
-            file_link = f"./{sol['path']}"  # Или используйте sol['file'] если файлы в корне
-            
+            file_link = f"./{sol['path']}"
             row = (
                 f"| {sol['number']} "
                 f"| [{sol['name']}]({sol['url']}) "
                 f"| `{sol['time']}` "
                 f"| `{sol['space']}` "
+                f"| {sol['topics']} "
                 f"| [📄]({file_link}) |"
             )
             table_parts.append(row)
-    
     return "\n".join(table_parts)
 
 def update_readme(readme_path: str = 'README.md', solutions: List[Dict[str, str]] = None):
