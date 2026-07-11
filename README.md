@@ -17,10 +17,16 @@
 |---|----------|-------|--------|------|---------|
 | 1 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer) | `O(n)` | `O(1)` | Hash Table, Math, String | [📄](./Easy/RomanToInteger.py) |
 
+### 🟡 Medium
+
+| # | Название | Время | Память | Темы | Решение |
+|---|----------|-------|--------|------|---------|
+| 3 | [3Sum](https://leetcode.com/problems/3sum) | `O(n²)` | `O(1)` | Array, Two Pointers, Sorting | [📄](./Medium/3Sum.py) |
+
 ### 🔴 Hard
 
 | # | Название | Время | Память | Темы | Решение |
 |---|----------|-------|--------|------|---------|
-| 2 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | `O((m+n)*log(m+n))` | `O(m+n)` | Array, Binary Search, Divide and Conquer | [📄](./Hard/MedianOfTwoSortedArrays.py) |
+| 2 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | `O((m+n) log(m+n))` | `O(m+n)` | Array, Binary Search, Divide and Conquer | [📄](./Hard/MedianOfTwoSortedArrays.py) |
 
 <!-- SOLUTIONS_TABLE_END -->
