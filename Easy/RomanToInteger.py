@@ -31,4 +31,4 @@ class Solution:
             else:
                 res += now
             prev = symbol
-        return res
+        return res 
