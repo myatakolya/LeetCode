@@ -21,6 +21,6 @@
 
 | # | Название | Время | Память | Темы | Решение |
 |---|----------|-------|--------|------|---------|
-| 2 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | `O((m+n) log(m+n)) | O(log min(m,n))` | `O(m+n) | O(1)` | Array, Binary Search, Divide and Conquer | [📄](./Hard/MedianOfTwoSortedArrays.py) |
+| 2 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | `O((m+n) log(m+n))` | `O(m+n)` | Array, Binary Search, Divide and Conquer | [📄](./Hard/MedianOfTwoSortedArrays.py) |
 
 <!-- SOLUTIONS_TABLE_END -->
