@@ -15,6 +15,6 @@
 
 | # | Название | Время | Память | Темы | Решение |
 |---|----------|-------|--------|------|---------|
-| 1 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer) | `O(n)` | `O(1)` | Hash Table Math String | [📄](./Easy/RomanToInteger.py) |
+| 1 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer) | `O(n)` | `O(1)` | Hash Table, Math, String | [📄](./Easy/RomanToInteger.py) |
 
 <!-- SOLUTIONS_TABLE_END -->
