@@ -1,3 +1,11 @@
+"""
+Problem: Roman To Integer
+Number: 1
+Difficulty: Easy
+Time Complexity: O(n)
+Space Complexity: O(1)
+URL: https://leetcode.com/problems/roman-to-integer
+"""
 class Solution: 
     ROMAN_TABLE = {
         'I':1,
