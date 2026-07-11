@@ -5,7 +5,7 @@ Difficulty: Easy
 Time Complexity: O(n)
 Space Complexity: O(1)
 URL: https://leetcode.com/problems/roman-to-integer
-Topics: Hash Table Math String
+Topics: Hash Table, Math, String
 """  
 class Solution: 
     ROMAN_TABLE = {
