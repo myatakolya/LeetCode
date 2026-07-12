@@ -19,6 +19,8 @@
 | 7 | [Power of Four](https://leetcode.com/problems/power-of-four) | `O(1)` | `O(1)` | Math, Bit Manipulation | [📄](./Easy/PowerofFour.py) |
 | 8 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | `O(n)` | `O(1)` | Math, Dynamic Programming, Memoization, Recursion | [📄](./Easy/FibonacciNumber.py) |
 | 9 | [Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers) | `O(n) + O(1)` | `O(1)` | Array, Hash Table, Enumeration, Sorting | [📄](./Easy/Finding3DigitEvenNumbers.py) |
+| 10 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i) | `O(log k)` | `O(1)` | Math, String, Recursion, Simulation | [📄](./Easy/FindtheKthCharacterinStringGameI.py) |
+| 11 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers) | `O(n) + O(1)` | `O(1)` | Array, Hash Table, Enumeration, Counting | [📄](./Easy/Unique3DigitEvenNumbers.py) |
 
 ### 🟡 Medium
 
