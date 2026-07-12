@@ -1,4 +1,14 @@
 
+'''
+Problem: Find the K-th Character in String Game I
+Number: 10
+Difficulty: Easy
+Time Complexity: O(log k)
+Space Complexity: O(1)
+URL: https://leetcode.com/problems/find-the-k-th-character-in-string-game-i
+Topics: Math, String, Recursion, Simulation
+'''
+
 class Solution:
     def kthCharacter(self, k: int) -> str:
         if k == 1: return 'a'

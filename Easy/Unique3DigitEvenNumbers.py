@@ -1,6 +1,15 @@
 from typing import List
+'''
+Problem: Unique 3-Digit Even Numbers
+Number: 11
+Difficulty: Easy
+Time Complexity: O(n) + O(1)
+Space Complexity: O(1)
+URL: https://leetcode.com/problems/unique-3-digit-even-numbers
+Topics: Array, Hash Table, Enumeration, Counting
+'''
 class Solution:
-    def findEvenNumbers(self, digits: List[int]) -> List[int]:
+    def totalNumbers(self, digits: List[int]) -> List[int]:
         seen_digits = [0]*10
         for i in digits:
             seen_digits[i] += 1
