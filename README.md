@@ -18,6 +18,7 @@
 | 6 | [Power of Three](https://leetcode.com/problems/power-of-three) | `O(1)` | `O(1)` | Math, Recursion (но решено без рекурсии) | [📄](./Easy/PowerofThree.py) |
 | 7 | [Power of Four](https://leetcode.com/problems/power-of-four) | `O(1)` | `O(1)` | Math, Bit Manipulation | [📄](./Easy/PowerofFour.py) |
 | 8 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | `O(n)` | `O(1)` | Math, Dynamic Programming, Memoization, Recursion | [📄](./Easy/FibonacciNumber.py) |
+| 9 | [Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers) | `O(n) + O(1)` | `O(1)` | Array, Hash Table, Enumeration, Sorting | [📄](./Easy/Finding3DigitEvenNumbers.py) |
 
 ### 🟡 Medium
 
