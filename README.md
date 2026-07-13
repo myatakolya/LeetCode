@@ -28,6 +28,13 @@
 |---|----------|-------|--------|------|---------|
 | 3 | [3Sum](https://leetcode.com/problems/3sum) | `O(n²)` | `O(1)` | Array, Two Pointers, Sorting | [📄](./Medium/3Sum.py) |
 | 4 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | `O(log n)` | `O(log n)` | Math, Recursion, Binary Exponentiation | [📄](./Medium/Pow(x,n).py) |
+| 12 | [Elimination Game](https://leetcode.com/problems/elimination-game) | `O(log n)` | `O(1)` | Math, Recursion, Simulation | [📄](./Medium/EliminationGame.py) |
+| 13 | [Decode String](https://leetcode.com/problems/decode-string) | `O(n)` | `O(n)` | String, Stack, Recursion | [📄](./Medium/DecodeString.py) |
+| 14 | [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | `O(1)` | `O(1)` | Math, Bit Manipulation, Recursion | [📄](./Medium/KthSymbolinGrammar.py) |
+| 15 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string) | `O(n)` | `O(1)` | String, Recursion, Math, Bit Manipulation | [📄](./Medium/FindKthBitinNthBinaryString.py) |
+| 16 | [Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game) | `O(n)` | `O(1)` | Math, Recursion, Simulation, Queue | [📄](./Medium/FindtheWinneroftheCircularGame.py) |
+| 17 | [Count Good Numbers](https://leetcode.com/problems/count-good-numbers) | `O(log n)` | `O(1)` | Math, Recursion, Exponentiation | [📄](./Medium/CountGoodNumbers.py) |
+| 18 | [Minimum Non-Zero Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements) | `O(n + log n)` | `O(1)` | Math, Bit Manipulation, Exponentiation | [📄](./Medium/MinimumNonZeroProductoftheArrayElements.py) |
 
 ### 🔴 Hard
 
