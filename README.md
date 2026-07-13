@@ -34,12 +34,12 @@
 | 15 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string) | `O(n)` | `O(1)` | String, Recursion, Math, Bit Manipulation | [📄](./Medium/FindKthBitinNthBinaryString.py) |
 | 16 | [Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game) | `O(n)` | `O(1)` | Math, Recursion, Simulation, Queue | [📄](./Medium/FindtheWinneroftheCircularGame.py) |
 | 17 | [Count Good Numbers](https://leetcode.com/problems/count-good-numbers) | `O(log n)` | `O(1)` | Math, Recursion, Exponentiation | [📄](./Medium/CountGoodNumbers.py) |
-| 18 | [Minimum Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements) | `O(n+log n)` | `O(1)` | Math, Bit Manipulation, Exponentiation | [📄](./Medium/MinimumNonZeroProductoftheArrayElements.py) |
+| 18 | [Minimum Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements) | `O(n)+O(log n)` | `O(1)` | Math, Bit Manipulation, Exponentiation | [📄](./Medium/MinimumNonZeroProductoftheArrayElements.py) |
 
 ### 🔴 Hard
 
 | # | Название | Время | Память | Темы | Решение |
 |---|----------|-------|--------|------|---------|
-| 2 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | `O((m+n) log(m+n))` | `O(m+n)` | Array, Binary Search, Divide and Conquer | [📄](./Hard/MedianOfTwoSortedArrays.py) |
+| 2 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | `O((m+n)*log(m+n))` | `O(m+n)` | Array, Binary Search, Divide and Conquer | [📄](./Hard/MedianOfTwoSortedArrays.py) |
 
 <!-- SOLUTIONS_TABLE_END -->
