@@ -10,7 +10,7 @@ Topics: Math
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        if x < 0 or x % 10 == 0:
+        if x < 0:
             return False
         elif 0<=x<=9:
             return True
