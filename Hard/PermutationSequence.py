@@ -2,7 +2,7 @@ import math
 '''
 Problem: Permutation Sequence
 Number: 23
-Difficulty: Medium
+Difficulty: Hard
 Time Complexity: O(n²)
 Space Complexity: O(n)
 URL: https://leetcode.com/problems/permutation-sequence
