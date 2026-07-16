@@ -46,6 +46,15 @@
 | 52 | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets) | `O(n)` | `O(n)` | Array, Queue, Simulation | [📄](./Easy/TimeNeededtoBuyTickets.py) |
 | 53 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | `O(1)` | `O(n)` | Stack, Design, Queue | [📄](./Easy/ImplementQueueusingStacks.py) |
 | 54 | [Ugly Number](https://leetcode.com/problems/ugly-number) | `O(log n)` | `O(1)` | Math, Number Theory | [📄](./Easy/UglyNumber.py) |
+| 55 | [Two Sum](https://leetcode.com/problems/two-sum) | `O(n)` | `O(n)` | Array, Hash Table | [📄](./Easy/TwoSum.py) |
+| 57 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers) | `O(n*d)` | `O(1)` | Math, Number Theory | [📄](./Easy/SelfDividingNumbers.py) |
+| 59 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | `O(n²)` | `O(n²)` | Array, Dynamic Programming | [📄](./Easy/PascalsTriangle.py) |
+| 62 | [Count Primes](https://leetcode.com/problems/count-primes) | `O(n*log(log(n)))` | `O(n)` | Math, Array, Sieve | [📄](./Medium/CountPrimes.py) |
+| 63 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | `O(log(n))` | `O(1)` | Math | [📄](./Medium/FactorialTrailingZeroes.py) |
+| 65 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes) | `O(n²)` | `O(1)` | Array, Math, Geometry | [📄](./Easy/ProjectionAreaof3DShapes.py) |
+| 66 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area) | `O(n³)` | `O(1)` | Array, Math, Geometry | [📄](./Easy/LargestTriangleArea.py) |
+| 68 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | `O(1)` | `O(1)` | Bit Manipulation, Math | [📄](./Easy/Numberof1Bits.py) |
+| 71 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | `O(n*log(n))` | `O(n)` | Array, Heap, Simulation | [📄](./Easy/LastStoneWeight.py) |
 
 ### 🟡 Medium
 
@@ -62,11 +71,17 @@
 | 18 | [Minimum Non-Zero Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements) | `O(n + log n)` | `O(1)` | Math, Bit Manipulation, Exponentiation | [📄](./Medium/MinimumNonZeroProductoftheArrayElements.py) |
 | 19 | [Sequential Digits](https://leetcode.com/problems/sequential-digits) | `O(1)` | `O(1)` | Enumeration, Backtracking, Math | [📄](./Medium/SequentialDigits.py) |
 | 20 | [Partition Array into Two Equal Product Subsets](https://leetcode.com/problems/partition-array-into-two-equal-product-subsets) | `O((2^n)*n)` | `O(1)` | Array, Bit Manipulation, Enumeration | [📄](./Medium/PartitionArrayintoTwoEqualProductSubsets.py) |
-| 23 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | `O(n²)` | `O(n)` | Math, Backtracking, Factorial Number System | [📄](./Hard/PermutationSequence.py) |
 | 40 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | `O(n)` | `O(n)` | Array, Stack, Math | [📄](./Medium/EvaluateReversePolishNotation.py) |
 | 41 | [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions) | `O(n)` | `O(n)` | Array, Stack | [📄](./Medium/ExclusiveTimeofFunctions.py) |
 | 43 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | `O(n)` | `O(n)` | Array, Stack, Monotonic Stack | [📄](./Medium/DailyTemperatures.py) |
 | 49 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | `O(log n)` | `O(1)` | Math, Simulation | [📄](./Medium/ReverseInteger.py) |
+| 56 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k) | `O(k)` | `O(1)` | Math, Number Theory | [📄](./Medium/SmallestIntegerDivisiblebyK.py) |
+| 58 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system) | `O(1)` | `O(n)` | Design, Array, Hash Table | [📄](./Medium/SimpleBankSystem.py) |
+| 61 | [Combinations](https://leetcode.com/problems/combinations) | `O(C(n,k)*k)` | `O(C(n,k)*k)` | Backtracking, Combinatorics | [📄](./Medium/Combinations.py) |
+| 64 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range) | `O(n*log(log(n)))` | `O(n)` | Math, Sieve | [📄](./Medium/ClosestPrimeNumbersinRange.py) |
+| 67 | [Rectangle Area](https://leetcode.com/problems/rectangle-area) | `O(1)` | `O(1)` | Math, Geometry | [📄](./Medium/RectangleArea.py) |
+| 69 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | `O(1)` | `O(1)` | Bit Manipulation, Math | [📄](./Medium/SumofTwoIntegers.py) |
+| 70 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor) | `O(n)` | `O(1)` | Array, Bit Manipulation | [📄](./Medium/FindTheOriginalArrayofPrefixXor.py) |
 
 ### 🔴 Hard
 
@@ -75,6 +90,8 @@
 | 2 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | `O((m+n) log(m+n))` | `O(m+n)` | Array, Binary Search, Divide and Conquer | [📄](./Hard/MedianOfTwoSortedArrays.py) |
 | 21 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | `O(n*m)` | `O(1)` | String, Regex, Library (не реализует алгоритм самостоятельно) | [📄](./Hard/RegularExpressionMatching.py) |
 | 22 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | `O(n*m)` | `O(1)` | String, Library (fnmatch), не реализует алгоритм | [📄](./Hard/WildcardMatching.py) |
+| 23 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | `O(n²)` | `O(n)` | Math, Backtracking, Factorial Number System | [📄](./Hard/PermutationSequence.py) |
 | 44 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | `O(n)` | `O(n)` | Array, Stack, Monotonic Stack | [📄](./Hard/LargestRectangleinHistogram.py) |
+| 67 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) | `O(n²)` | `O(n)` | Array, Hash Table, Geometry | [📄](./Hard/MaxPointsonaLine.py) |
 
 <!-- SOLUTIONS_TABLE_END -->
