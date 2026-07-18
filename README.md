@@ -67,7 +67,7 @@
 | 84 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | `O(n²)` | `O(n)` | Array, Dynamic Programming | [📄](./Easy/PascalsTriangleII.py) |
 | 85 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | `O(n)` | `O(n)` | Array, Hash Table, Sorting | [📄](./Easy/ContainsDuplicate.py) |
 | 86 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | `O(n)` | `O(n)` | Array, Hash Table, Sliding Window | [📄](./Easy/ContainsDuplicateII.py) |
-| 87 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | `O(n)|O(1)` | `O(n)` | Stack, Design, Queue | [📄](./Easy/ImplementStackusingQueues.py) |
+| 87 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | `O(n)+O(1)` | `O(n)` | Stack, Design, Queue | [📄](./Easy/ImplementStackusingQueues.py) |
 | 88 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | `O(n)` | `O(1)` | String, Hash Table, Sorting | [📄](./Easy/ValidAnagram.py) |
 | 89 | [Add Digits](https://leetcode.com/problems/add-digits) | `O(1)` | `O(1)` | Math, Simulation | [📄](./Easy/AddDigits.py) |
 | 90 | [Missing Number](https://leetcode.com/problems/missing-number) | `O(n)` | `O(1)` | Array, Math, Bit Manipulation | [📄](./Easy/MissingNumber.py) |
