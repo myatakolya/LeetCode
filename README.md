@@ -79,6 +79,17 @@
 | 96 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | `O(log(n))` | `O(log(n))` | Bit Manipulation | [📄](./Easy/HammingDistance.py) |
 | 97 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | `O(n)` | `O(1)` | String, Counting | [📄](./Easy/NumberofSegmentsinaString.py) |
 | 98 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number) | `O(n)` | `O(n)` | Array, Sorting, Heap | [📄](./Easy/ThirdMaximumNumber.py) |
+| 99 | [Base 7](https://leetcode.com/problems/base-7) | `O(log₇(n))` | `O(log₇(n))` | Math, String | [📄](./Easy/Base7.py) |
+| 100 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | `O(n)` | `O(1)` | Array, Two Pointers | [📄](./Easy/MoveZeroes.py) |
+| 102 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | `O(n)` | `O(1)` | Linked List, Two Pointers | [📄](./Easy/RemoveDuplicatesfromSortedList.py) |
+| 103 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | `O(n)` | `O(1)` | Array | [📄](./Easy/MonotonicArray.py) |
+| 104 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | `O(n)` | `O(1)` | Linked List, Recursion, Iteration | [📄](./Easy/ReverseLinkedList.py) |
+| 105 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) | `O(1)` | `O(n)` | Queue, Design | [📄](./Easy/NumberofRecentCalls.py) |
+| 106 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | `O(n*m)` | `O(1)` | String, Two Pointers, String Matching | [📄](./Easy/FindtheIndexoftheFirstOccurrenceinaString.py) |
+| 107 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | `O(n)` | `O(1)` | Array, Math | [📄](./Easy/SignoftheProductofanArray.py) |
+| 108 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | `O(n)` | `O(1)` | String, Simulation | [📄](./Easy/LengthofLastWord.py) |
+| 109 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | `O(n)` | `O(n)` | String | [📄](./Easy/ToLowerCase.py) |
+| 110 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin) | `O(n)` | `O(1)` | String, Simulation | [📄](./Easy/RobotReturntoOrigin.py) |
 
 ### 🟡 Medium
 
@@ -109,16 +120,20 @@
 | 72 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums) | `O(n*log(n))` | `O(n)` | Array, Heap, Sorting | [📄](./Medium/FindKPairswithSmallestSums.py) |
 | 76 | [Masking Personal Information](https://leetcode.com/problems/masking-personal-information) | `O(n)` | `O(n)` | String, Simulation | [📄](./Medium/MaskingPersonalInformation.py) |
 | 81 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | `O(n)` | `O(n)` | String, Stack, Greedy | [📄](./Medium/RemoveDuplicateLetters.py) |
+| 101 | [Gray Code](https://leetcode.com/problems/gray-code) | `O(2ⁿ)` | `O(2ⁿ)` | Math, Backtracking, Bit Manipulation | [📄](./Medium/GrayCode.py) |
+| 103 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) | `O(n)` | `O(1)` | Linked List, Two Pointers | [📄](./Medium/OddEvenLinkedList.py) |
+| 111 | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle) | `O(n)` | `O(1)` | String, Simulation | [📄](./Easy/RobotBoundedInCircle.py) |
 
 ### 🔴 Hard
 
 | # | Название | Время | Память | Темы | Решение |
 |---|----------|-------|--------|------|---------|
 | 2 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | `O((m+n) log(m+n))` | `O(m+n)` | Array, Binary Search, Divide and Conquer | [📄](./Hard/MedianOfTwoSortedArrays.py) |
-| 21 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | `O(n*m)` | `O(1)` | String, Regex, Library (не реализует алгоритм самостоятельно) | [📄](./Hard/RegularExpressionMatching.py) |
-| 22 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | `O(n*m)` | `O(1)` | String, Library (fnmatch), не реализует алгоритм | [📄](./Hard/WildcardMatching.py) |
+| 21 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | `O(n*m)` | `O(1)` | String, Regex | [📄](./Hard/RegularExpressionMatching.py) |
+| 22 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | `O(n*m)` | `O(1)` | String | [📄](./Hard/WildcardMatching.py) |
 | 23 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | `O(n²)` | `O(n)` | Math, Backtracking, Factorial Number System | [📄](./Hard/PermutationSequence.py) |
 | 44 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | `O(n)` | `O(n)` | Array, Stack, Monotonic Stack | [📄](./Hard/LargestRectangleinHistogram.py) |
+| 60 | [Number of Ways to Rearrange Sticks With K Sticks Visible](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible) | `O(n*k)` | `O(k)` | Math, Dynamic Programming, Combinatorics | [📄](./Hard/NumberofWaystoRearrangeSticksWithKSticksVisible.py) |
 | 67 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) | `O(n²)` | `O(n)` | Array, Hash Table, Geometry | [📄](./Hard/MaxPointsonaLine.py) |
 | 73 | [Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums) | `O(n*log(n))` | `O(n)` | Array, Heap, Math | [📄](./Hard/ConstructTargetArrayWithMultipleSums.py) |
 
