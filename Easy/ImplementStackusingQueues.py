@@ -3,7 +3,7 @@ from collections import deque
 Problem: Implement Stack using Queues
 Number: 87
 Difficulty: Easy
-Time Complexity: O(n)|O(1)
+Time Complexity: O(n)+O(1)
 Space Complexity: O(n)
 URL: https://leetcode.com/problems/implement-stack-using-queues
 Topics: Stack, Design, Queue
