@@ -22,5 +22,3 @@ class Solution:
         for i in range(len(nums)):
             nums.append(nums[i])
         return nums
-    
-    #XD, сложно

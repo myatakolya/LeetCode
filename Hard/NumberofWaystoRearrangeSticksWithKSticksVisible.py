@@ -1,3 +1,12 @@
+''' Спасибо DeepSeek, потому что динамика это пиздец -_-
+Problem: Number of Ways to Rearrange Sticks With K Sticks Visible
+Number: 60
+Difficulty: Hard
+Time Complexity: O(n*k)
+Space Complexity: O(k)
+URL: https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible
+Topics: Math, Dynamic Programming, Combinatorics
+'''
 class Solution:
     def rearrangeSticks(self, n: int, k: int) -> int:
         MOD = 10**9 + 7

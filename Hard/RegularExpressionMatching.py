@@ -6,7 +6,7 @@ Difficulty: Hard
 Time Complexity: O(n*m)
 Space Complexity: O(1)
 URL: https://leetcode.com/problems/regular-expression-matching
-Topics: String, Regex, Library (не реализует алгоритм самостоятельно)
+Topics: String, Regex
 '''
 
 
