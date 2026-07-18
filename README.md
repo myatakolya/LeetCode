@@ -55,6 +55,30 @@
 | 66 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area) | `O(n³)` | `O(1)` | Array, Math, Geometry | [📄](./Easy/LargestTriangleArea.py) |
 | 68 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | `O(1)` | `O(1)` | Bit Manipulation, Math | [📄](./Easy/Numberof1Bits.py) |
 | 71 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | `O(n*log(n))` | `O(n)` | Array, Heap, Simulation | [📄](./Easy/LastStoneWeight.py) |
+| 74 | [Detect Capital](https://leetcode.com/problems/detect-capital) | `O(n)` | `O(1)` | String, Iteration | [📄](./Easy/DetectCapital.py) |
+| 75 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting) | `O(n)` | `O(n)` | String, Simulation | [📄](./Easy/LicenseKeyFormatting.py) |
+| 77 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | `O(n)` | `O(n)` | String, String Matching | [📄](./Easy/RepeatedSubstringPattern.py) |
+| 78 | [Rotate String](https://leetcode.com/problems/rotate-string) | `O(n)` | `O(n)` | String, String Matching | [📄](./Easy/RotateString.py) |
+| 79 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match) | `O(len(a)*len(b))` | `O(len(a)+len(b))` | String, String Matching | [📄](./Medium/RepeatedStringMatch.py) |
+| 80 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | `O(n)` | `O(1)` | Array, Prefix Sum | [📄](./Easy/FindPivotIndex.py) |
+| 81 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings) | `O(n+m)` | `O(1)` | String, Math | [📄](./Easy/GreatestCommonDivisorofStrings.py) |
+| 82 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | `O(n*m)` | `O(m)` | String, Trie | [📄](./Easy/LongestCommonPrefix.py) |
+| 83 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | `O(n)` | `O(n)` | String, Stack | [📄](./Easy/ValidParentheses.py) |
+| 84 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | `O(n²)` | `O(n)` | Array, Dynamic Programming | [📄](./Easy/PascalsTriangleII.py) |
+| 85 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | `O(n)` | `O(n)` | Array, Hash Table, Sorting | [📄](./Easy/ContainsDuplicate.py) |
+| 86 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | `O(n)` | `O(n)` | Array, Hash Table, Sliding Window | [📄](./Easy/ContainsDuplicateII.py) |
+| 87 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | `O(n)|O(1)` | `O(n)` | Stack, Design, Queue | [📄](./Easy/ImplementStackusingQueues.py) |
+| 88 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | `O(n)` | `O(1)` | String, Hash Table, Sorting | [📄](./Easy/ValidAnagram.py) |
+| 89 | [Add Digits](https://leetcode.com/problems/add-digits) | `O(1)` | `O(1)` | Math, Simulation | [📄](./Easy/AddDigits.py) |
+| 90 | [Missing Number](https://leetcode.com/problems/missing-number) | `O(n)` | `O(1)` | Array, Math, Bit Manipulation | [📄](./Easy/MissingNumber.py) |
+| 91 | [Counting Bits](https://leetcode.com/problems/counting-bits) | `O(n)` | `O(n)` | Array, Dynamic Programming, Bit Manipulation | [📄](./Easy/CountingBits.py) |
+| 92 | [Remove Element](https://leetcode.com/problems/remove-element) | `O(n)` | `O(1)` | Array, Two Pointers | [📄](./Easy/RemoveElement.py) |
+| 93 | [Nim Game](https://leetcode.com/problems/nim-game) | `O(1)` | `O(1)` | Math, Game Theory | [📄](./Easy/NimGame.py) |
+| 94 | [Reverse String](https://leetcode.com/problems/reverse-string) | `O(n)` | `O(1)` | String, Two Pointers | [📄](./Easy/ReverseString.py) |
+| 95 | [Find the Difference](https://leetcode.com/problems/find-the-difference) | `O(n)` | `O(1)` | String, Hash Table, Bit Manipulation | [📄](./Easy/FindtheDifference.py) |
+| 96 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | `O(log(n))` | `O(log(n))` | Bit Manipulation | [📄](./Easy/HammingDistance.py) |
+| 97 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | `O(n)` | `O(1)` | String, Counting | [📄](./Easy/NumberofSegmentsinaString.py) |
+| 98 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number) | `O(n)` | `O(n)` | Array, Sorting, Heap | [📄](./Easy/ThirdMaximumNumber.py) |
 
 ### 🟡 Medium
 
@@ -82,6 +106,9 @@
 | 67 | [Rectangle Area](https://leetcode.com/problems/rectangle-area) | `O(1)` | `O(1)` | Math, Geometry | [📄](./Medium/RectangleArea.py) |
 | 69 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | `O(1)` | `O(1)` | Bit Manipulation, Math | [📄](./Medium/SumofTwoIntegers.py) |
 | 70 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor) | `O(n)` | `O(1)` | Array, Bit Manipulation | [📄](./Medium/FindTheOriginalArrayofPrefixXor.py) |
+| 72 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums) | `O(n*log(n))` | `O(n)` | Array, Heap, Sorting | [📄](./Medium/FindKPairswithSmallestSums.py) |
+| 76 | [Masking Personal Information](https://leetcode.com/problems/masking-personal-information) | `O(n)` | `O(n)` | String, Simulation | [📄](./Medium/MaskingPersonalInformation.py) |
+| 81 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | `O(n)` | `O(n)` | String, Stack, Greedy | [📄](./Medium/RemoveDuplicateLetters.py) |
 
 ### 🔴 Hard
 
@@ -93,5 +120,6 @@
 | 23 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | `O(n²)` | `O(n)` | Math, Backtracking, Factorial Number System | [📄](./Hard/PermutationSequence.py) |
 | 44 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | `O(n)` | `O(n)` | Array, Stack, Monotonic Stack | [📄](./Hard/LargestRectangleinHistogram.py) |
 | 67 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) | `O(n²)` | `O(n)` | Array, Hash Table, Geometry | [📄](./Hard/MaxPointsonaLine.py) |
+| 73 | [Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums) | `O(n*log(n))` | `O(n)` | Array, Heap, Math | [📄](./Hard/ConstructTargetArrayWithMultipleSums.py) |
 
 <!-- SOLUTIONS_TABLE_END -->
