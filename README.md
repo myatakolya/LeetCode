@@ -90,6 +90,19 @@
 | 108 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | `O(n)` | `O(1)` | String, Simulation | [📄](./Easy/LengthofLastWord.py) |
 | 109 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | `O(n)` | `O(n)` | String | [📄](./Easy/ToLowerCase.py) |
 | 110 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin) | `O(n)` | `O(1)` | String, Simulation | [📄](./Easy/RobotReturntoOrigin.py) |
+| 112 | [Baseball Game](https://leetcode.com/problems/baseball-game) | `O(n)` | `O(n)` | Array, Stack, Simulation | [📄](./Easy/BaseballGame.py) |
+| 113 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game) | `O(1)` | `O(1)` | Array, Matrix, Simulation | [📄](./Easy/FindWinneronaTicTacToeGame.py) |
+| 114 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | `O(m*n)` | `O(1)` | Array, Matrix | [📄](./Easy/RichestCustomerWealth.py) |
+| 115 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | `O(n)` | `O(1)` | Array, Matrix | [📄](./Easy/MatrixDiagonalSum.py) |
+| 118 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range) | `O(1)` | `O(1)` | Math | [📄](./Easy/CountOddNumbersInIntervalRange.py) |
+| 119 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary) | `O(n)` | `O(1)` | Array, Math | [📄](./Easy/AverageSalaryExcludingMinimumAndMaximumSalary.py) |
+| 120 | [Lemonade Change](https://leetcode.com/problems/lemonade-change) | `O(n)` | `O(1)` | Array, Greedy | [📄](./Easy/LemonadeChange.py) |
+| 121 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle) | `O(n*log(n))` | `O(n)` | Array, Sorting, Greedy | [📄](./Easy/LargestPerimeterTriangle.py) |
+| 122 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | `O(n)` | `O(1)` | Array, Math, Geometry | [📄](./Easy/CheckIfItIsAStraightLine.py) |
+| 123 | [Add Binary](https://leetcode.com/problems/add-binary) | `O(n+m)` | `O(n+m)` | String, Math, Bit Manipulation | [📄](./Easy/AddBinary.py) |
+| 125 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | `O(n)` | `O(1)` | Array, Two Pointers | [📄](./Easy/RemoveDuplicatesFromSortedArray.py) |
+| 126 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | `O(log(n))` | `O(1)` | Array, Binary Search | [📄](./Easy/SearchInsertPosition.py) |
+| 127 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | `O(log(n))` | `O(1)` | Math, Binary Search | [📄](./Easy/Sqrt(x).py) |
 
 ### 🟡 Medium
 
@@ -123,6 +136,9 @@
 | 101 | [Gray Code](https://leetcode.com/problems/gray-code) | `O(2ⁿ)` | `O(2ⁿ)` | Math, Backtracking, Bit Manipulation | [📄](./Medium/GrayCode.py) |
 | 103 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) | `O(n)` | `O(1)` | Linked List, Two Pointers | [📄](./Medium/OddEvenLinkedList.py) |
 | 111 | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle) | `O(n)` | `O(1)` | String, Simulation | [📄](./Easy/RobotBoundedInCircle.py) |
+| 116 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | `O(m*n)` | `O(1)` | Array, Matrix, Simulation | [📄](./Medium/SpiralMatrix.py) |
+| 117 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | `O(m*n)` | `O(1)` | Array, Matrix, In-place | [📄](./Medium/SetMatrixZeroes.py) |
+| 124 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | `O(m*n)` | `O(m+n)` | String, Math, Simulation | [📄](./Easy/MultiplyStrings.py) |
 
 ### 🔴 Hard
 
