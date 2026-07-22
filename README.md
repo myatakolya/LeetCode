@@ -97,9 +97,10 @@
 | 117 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | `O(m+n)` | `O(1)` | Array, Two Pointers, Sorting | [📄](./Easy/MergeSortedArray.py) |
 | 118 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range) | `O(1)` | `O(1)` | Math | [📄](./Easy/CountOddNumbersInIntervalRange.py) |
 | 118 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | `O(n)` | `O(1)` | Array, Dynamic Programming, Greedy | [📄](./Easy/BestTimeToBuyAndSellStock.py) |
-| 119 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary) | `O(n)` | `O(1)` | Array, Math | [📄](./Easy/AverageSalaryExcludingMinimumAndMaximumSalary.py) |
 | 119 | [Majority Element](https://leetcode.com/problems/majority-element) | `O(n)` | `O(n)` | Array, Hash Table, Divide and Conquer, Sorting | [📄](./Easy/MajorityElement.py) |
+| 119 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary) | `O(n)` | `O(1)` | Array, Math | [📄](./Easy/AverageSalaryExcludingMinimumAndMaximumSalary.py) |
 | 120 | [Lemonade Change](https://leetcode.com/problems/lemonade-change) | `O(n)` | `O(1)` | Array, Greedy | [📄](./Easy/LemonadeChange.py) |
+| 120 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | `O(n+m)` | `O(n+m)` | Array, Hash Table, Sorting, Two Pointers | [📄](./Easy/IntersectionOfTwoArrays.py) |
 | 121 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle) | `O(n*log(n))` | `O(n)` | Array, Sorting, Greedy | [📄](./Easy/LargestPerimeterTriangle.py) |
 | 122 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | `O(n)` | `O(1)` | Array, Math, Geometry | [📄](./Easy/CheckIfItIsAStraightLine.py) |
 | 123 | [Add Binary](https://leetcode.com/problems/add-binary) | `O(n+m)` | `O(n+m)` | String, Math, Bit Manipulation | [📄](./Easy/AddBinary.py) |
