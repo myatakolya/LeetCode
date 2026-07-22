@@ -94,8 +94,11 @@
 | 113 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game) | `O(1)` | `O(1)` | Array, Matrix, Simulation | [📄](./Easy/FindWinneronaTicTacToeGame.py) |
 | 114 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth) | `O(m*n)` | `O(1)` | Array, Matrix | [📄](./Easy/RichestCustomerWealth.py) |
 | 115 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | `O(n)` | `O(1)` | Array, Matrix | [📄](./Easy/MatrixDiagonalSum.py) |
+| 117 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | `O(m+n)` | `O(1)` | Array, Two Pointers, Sorting | [📄](./Easy/MergeSortedArray.py) |
 | 118 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range) | `O(1)` | `O(1)` | Math | [📄](./Easy/CountOddNumbersInIntervalRange.py) |
+| 118 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | `O(n)` | `O(1)` | Array, Dynamic Programming, Greedy | [📄](./Easy/BestTimeToBuyAndSellStock.py) |
 | 119 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary) | `O(n)` | `O(1)` | Array, Math | [📄](./Easy/AverageSalaryExcludingMinimumAndMaximumSalary.py) |
+| 119 | [Majority Element](https://leetcode.com/problems/majority-element) | `O(n)` | `O(n)` | Array, Hash Table, Divide and Conquer, Sorting | [📄](./Easy/MajorityElement.py) |
 | 120 | [Lemonade Change](https://leetcode.com/problems/lemonade-change) | `O(n)` | `O(1)` | Array, Greedy | [📄](./Easy/LemonadeChange.py) |
 | 121 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle) | `O(n*log(n))` | `O(n)` | Array, Sorting, Greedy | [📄](./Easy/LargestPerimeterTriangle.py) |
 | 122 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | `O(n)` | `O(1)` | Array, Math, Geometry | [📄](./Easy/CheckIfItIsAStraightLine.py) |
@@ -103,6 +106,7 @@
 | 125 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | `O(n)` | `O(1)` | Array, Two Pointers | [📄](./Easy/RemoveDuplicatesFromSortedArray.py) |
 | 126 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | `O(log(n))` | `O(1)` | Array, Binary Search | [📄](./Easy/SearchInsertPosition.py) |
 | 127 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | `O(log(n))` | `O(1)` | Math, Binary Search | [📄](./Easy/Sqrt(x).py) |
+| 128 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | `O(n)` | `O(1)` | Math, Dynamic Programming, Memoization | [📄](./Easy/ClimbingStairs.py) |
 
 ### 🟡 Medium
 
