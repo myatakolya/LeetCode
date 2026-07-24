@@ -102,6 +102,7 @@
 | 120 | [Lemonade Change](https://leetcode.com/problems/lemonade-change) | `O(n)` | `O(1)` | Array, Greedy | [📄](./Easy/LemonadeChange.py) |
 | 120 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | `O(n+m)` | `O(n+m)` | Array, Hash Table, Sorting, Two Pointers | [📄](./Easy/IntersectionOfTwoArrays.py) |
 | 121 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle) | `O(n*log(n))` | `O(n)` | Array, Sorting, Greedy | [📄](./Easy/LargestPerimeterTriangle.py) |
+| 121 | [Happy Number](https://leetcode.com/problems/happy-number) | `O(log(n))` | `O(log(n))` | Math, Hash Table | [📄](./Easy/HappyNumber.py) |
 | 122 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | `O(n)` | `O(1)` | Array, Math, Geometry | [📄](./Easy/CheckIfItIsAStraightLine.py) |
 | 123 | [Add Binary](https://leetcode.com/problems/add-binary) | `O(n+m)` | `O(n+m)` | String, Math, Bit Manipulation | [📄](./Easy/AddBinary.py) |
 | 125 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | `O(n)` | `O(1)` | Array, Two Pointers | [📄](./Easy/RemoveDuplicatesFromSortedArray.py) |
